@@ -1,9 +1,7 @@
 package org.example.algorithms1;
 
+
 import org.junit.jupiter.api.Test;
-
-import java.util.Random;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class AlgorithmsTest {
