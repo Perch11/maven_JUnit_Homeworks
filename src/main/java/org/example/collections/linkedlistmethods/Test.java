@@ -39,7 +39,12 @@ public class Test {
         System.out.println();
         //16
         LinkedList<String> list2 = new LinkedList<>();
+
         System.out.println("Is list2 empty? " + list2.isEmpty());
+        list2.add("ar");
+        System.out.println(list2.isEmpty());
+        System.out.println(list2);
+
         System.out.println("Is list1 empty? " + list1.isEmpty());
         System.out.println();
 
