@@ -89,6 +89,10 @@ public class MyQueue {
         return size;
     }
 
+    /**
+     * override toString method
+     * @return type String
+     */
     @Override
     public String toString() {
         return "MyQueue{" +

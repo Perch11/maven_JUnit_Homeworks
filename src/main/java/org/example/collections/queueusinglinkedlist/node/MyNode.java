@@ -4,6 +4,11 @@ public class MyNode {
 
     private int data;
     private  MyNode next;
+
+    /**
+     * Constructor
+     * @param data int type
+     */
     public MyNode(int data){
         this.data = data;
         this.next = null;
@@ -41,6 +46,10 @@ public class MyNode {
         this.next = next;
     }
 
+    /**
+     * override to string method
+     * @return type string
+     */
     @Override
     public String toString() {
         return "MyNode{" +
