@@ -67,6 +67,9 @@ public class MyQueue<T> {
 
         return list;
     }
+    public boolean check(T item){
+        return list.contains(item);
+    }
 
     /**
      * iterate Elements In LinkedList

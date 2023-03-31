@@ -10,11 +10,18 @@ public class Test {
         queue.enqueue("ashot");
         queue.enqueue("ashot");
 
+
+        queue.enqueue("ashot");
+        queue.enqueue("ashot");
+        queue.enqueue("kar");
         queue.Sout();
-        queue.enqueue("ashot");
-        queue.enqueue("ashot");
-        queue.enqueue("ashot");
         System.out.println(queue.size());
+        String element = "kar";
+        if(queue.check(element)){
+            System.out.println("element present in the queue");
+        }else {
+            System.out.println("element do not present in the queue");
+        }
 
     }
 }

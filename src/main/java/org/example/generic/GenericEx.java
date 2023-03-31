@@ -30,9 +30,9 @@ public class GenericEx<T> {
     }
 
     /**
-     *
-     * @param list
-     * @return
+     * This method returns maximum element in ArrayList
+     * @param list type generic ArrayList
+     * @return generic max element in arraylist
      * @param <T>
      */
     public <T extends Comparable> T findMaxElement(ArrayList<T> list){
