@@ -12,6 +12,7 @@ public class HashsetEx<T> {
         HashSet<T> commonEl = new HashSet<>(set1);
         commonEl.retainAll(set2);
         System.out.println(commonEl);
+
     }
 
     /**
