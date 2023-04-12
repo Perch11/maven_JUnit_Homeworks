@@ -59,7 +59,6 @@ public class ConnectDB {
         rs.close();
         st.close();
         con.close();
-
     }
 
     /**
@@ -116,7 +115,6 @@ public class ConnectDB {
         st.close();
         con.close();
     }
-
      */
 
     /**
